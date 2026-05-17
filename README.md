@@ -12,7 +12,7 @@
 - [Execução local](#execução-local)
 - [Deploy e GitHub Pages](#deploy-e-github-pages)
 - [Scripts disponíveis](#scripts-disponíveis)
- - [Comandos (scripts)](README%20-%20commands.md)
+ - [Comandos (scripts)](COMMANDS.md)
 - [Arquivos úteis](#arquivos-úteis)
 - [Próximos passos](#próximos-passos)
 
@@ -222,7 +222,7 @@ No `package.json` existem os comandos principais:
 - `npm run build` — gera `docs/` para deploy
 - `npm run preview` — testa a build localmente
 
-Veja também os comandos detalhados em: [README - commands](README%20-%20commands.md)
+Veja também os comandos detalhados em: [README - commands](COMMANDS.md)
 
 ## Arquivos úteis
 
