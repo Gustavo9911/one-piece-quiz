@@ -1,0 +1,10 @@
+@import 'tailwindcss' source(none);
+@source '../main.tsx';
+@source '../app/App.tsx';
+@source '../app/components/Header.tsx';
+@source '../app/components/HomeScreen.tsx';
+@source '../app/components/DifficultyScreen.tsx';
+@source '../app/components/QuizScreen.tsx';
+@source '../app/components/ResultsScreen.tsx';
+@source '../app/components/SenaiLogo.tsx';
+@source '../data/**/*.ts';

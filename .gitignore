@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+
+# Editor
+.vscode/
+.idea/
+
+# System
+Thumbs.db
