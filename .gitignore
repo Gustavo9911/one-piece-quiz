@@ -13,5 +13,9 @@ dist/
 .vscode/
 .idea/
 
+# Temporary / generated
+%dest%/
+backup-full-latest/
+
 # System
 Thumbs.db
