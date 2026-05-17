@@ -1,3 +1,7 @@
+/*
+  One Piece Quiz — authored by G. G. M. Garcia
+  (C) G. G. M. Garcia
+*/
 import { useEffect, useState } from 'react';
 import { Header } from './components/Header';
 import { HomeScreen } from './components/HomeScreen';
@@ -57,6 +61,9 @@ export default function App() {
         {currentScreen === 'quiz' && <QuizScreen difficulty={difficulty} onComplete={handleQuizComplete} />}
         {currentScreen === 'results' && <ResultsScreen score={score} total={totalQuestions} onRestart={handleRestart} />}
       </main>
+      <footer className="w-full py-4 text-center text-sm text-blue-100/70">
+        <div className="max-w-6xl mx-auto">Desenvolvido por <strong>G. G. M. Garcia</strong> — One Piece Quiz SENAI</div>
+      </footer>
     </div>
   );
 }
